@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+    
+
+    <title>UAE Lab | Inicio</title>
+  <link rel="shortcut icon" href="../img/uae.jpg">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="../css/stylesInicio.css">
+
+</head>
+<body>
+
+      
+   
+
+    <header class="header">
+        <nav class="nav-main">
+          <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+    
+          <label id="topic-top">
+            UAE LAB
+          </label>
+    
+          
+          <img id="avatar" src="<%= user.picture %>" alt="">
+          
+          
+
+          <!-- Navigation -->
+    
+          <!-- Left Nav -->
+          <ul class="nav-menu">
+            <li>
+              <img src="../img/uae.jpg" alt="uae Logo" class="nav-brand">
+            </li>
+            <li>
+              <a href="/inicio">Inicio</a>
+            </li>
+            <li>
+              <a href="/biblioteca">Biblioteca</a>
+            </li>
+            <li>
+              <a href="/laboratorios">Laboratorios</a>
+            </li>
+            
+            <li>
+              <a href="/contacto">Contáctanos</a>
+            </li>
+
+            <li>
+              <a href="/logout">Cerrar Sesión</a>
+            </li>
+
+            
+          </ul>
+        </nav>
+      </header>
+      
+      
+      
+    
+    
+      <div class="img-inicio">
+        <img src="../img/banner.png" alt="">
+      </div>
+
+      <h3>Hola, <%= user.name %></h3>
+      
+      
+      
+      
+      <div class="last-lab">
+        <h2>Ultimas Lecturas</h2>
+      </div>
+      
+      <hr class="linea"/>
+    
+      <div class="cards">
+        <div class="pdf4">
+          <img src="../img/book.png">
+          <h2>PROPUESTA DE INCORPORACIÓN DE TECNOLOGÍA APROPIADA 
+            PARA LA MODERNIZACIÓN DE LOS LABORATORIOS DE LAS 
+            CARRERAS DE INGENIERÍA ELÉCTRICA Y MECÁNICA.</h2>
+          <p>Año 2021</p>
+        </div>
+        <div class="pdf5">
+          <img src="../img/book.png">
+          <h2>Simbologia Neumatica</h2>
+        </div>
+        <!-- 
+        <div class="pdf3">
+          <img src="../img/book.png">
+          <h2>Trabajo de Graduación XXXXXXX</h2>
+          <p>Año xxxxxx</p>
+        </div>
+        <div class="pdf4">
+          <img src="../img/book.png">
+          <h2>Libro XXXXXXXXXX</h2>
+          <p>Año xxxxxx</p>
+        </div>
+      -->
+      </div>
+    
+    
+      
+      <!-- Scroll Reveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="../js/mainInicio.js"></script>
+
+
+
+</body>
+</html>

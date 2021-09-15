@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+    
+    <title>UAE Lab | Nuevo Material</title>
+  <link rel="shortcut icon" href="../img/uae.jpg">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="../css/stylesMaterial.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav-main">
+      <div class="arrow-btn">
+        <i class="fas fa-arrow-left"></i>
+      </div>
+
+      <label id="topic-top">
+        Agregar Nuevo Material
+      </label>
+
+      <img id="avatar" src="<%= user.picture %>" alt="">
+
+      
+    </nav>
+  </header>
+
+  <div>.</div>
+
+  <div class="contenedor">
+
+    <img id="imguae" src="../img/uae.jpg">
+
+    <div id="form" class="login-form">
+
+      <div class="form1">
+
+        <label for="nombre" class="la">Nombre:</label>
+        <input id="nombre" type="text" class="input">
+
+        <!-- 
+        <label for="laboratorio" class="la">Laboratorio:</label>
+        <input id="laboratorio" type="text" class="input">
+        -->
+        <label id="fileName" for="archivo" class="la">Archivo:</label>
+        <input id="fileID" type="file" accept=".pdf" class="input">
+      
+      </div>
+
+      <input id="guardar" type="submit" class="button" value="Guardar">
+    </div>
+  </div>
+
+
+</body>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="../js/mainMaterialGuias.js"></script>
+
+</html>
